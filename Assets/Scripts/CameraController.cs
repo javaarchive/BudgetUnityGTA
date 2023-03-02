@@ -20,7 +20,7 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey("shift") && (Time.deltaTime - lastCameraToggle) > 1){
+        if(Input.GetKey(KeyCode.LeftShift) && (Time.deltaTime - lastCameraToggle) > 1){
             lastCameraToggle = Time.deltaTime;
             isFirstPerson = !isFirstPerson;
         }

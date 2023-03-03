@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour {
 
 	void Start(){
 		rigidBody = GetComponent<Rigidbody>();
+		// makes thing not flip over
+		// thanks landon for physics explaination
 		rigidBody.centerOfMass = new Vector3(0,-1,0);
 	}
 

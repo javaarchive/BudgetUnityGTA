@@ -18,5 +18,9 @@ public class PlayerController : MonoBehaviour {
 		rigidBody.AddForce((forwardForce * transform.forward), ForceMode.Acceleration);
 		// transform.Translate(Input.GetAxis ("Vertical") * transform.forward * Time.deltaTime * 15, Space.World);	
 		transform.Rotate(0,Input.GetAxis("Horizontal"),0);
+		if(Input.GetKey(KeyCode.Space)){
+			// lmao fly
+			rigidBody.AddForce((Vector3.up * 5), ForceMode.Acceleration);
+		}
 	}
 }

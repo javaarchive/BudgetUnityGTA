@@ -21,7 +21,7 @@ public class CameraController : MonoBehaviour
     void Update()
     {
         // prevent key from triggering every frame
-        if(Input.GetKey(KeyCode.Space) && (Time.realtimeSinceStartup - lastCameraToggle) > 1f){
+        if(Input.GetKey(KeyCode.LeftShift) && (Time.realtimeSinceStartup - lastCameraToggle) > 1f){
             lastCameraToggle = Time.realtimeSinceStartup;
             isFirstPerson = !isFirstPerson;
         }

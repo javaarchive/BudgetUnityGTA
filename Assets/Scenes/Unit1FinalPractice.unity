@@ -148,7 +148,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 667797081792829215, guid: 131c3eed26b1c47688ffec0df7f3267c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -14.6
+      value: -12.56
       objectReference: {fileID: 0}
     - target: {fileID: 667797081792829215, guid: 131c3eed26b1c47688ffec0df7f3267c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -433,6 +433,63 @@ MonoBehaviour:
   camOffset: {x: 0, y: 3, z: -8}
   camOffsetFirstPerson: {x: 0, y: 1, z: 2}
   isFirstPerson: 0
+--- !u!1001 &1558557709
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1225700200521285870, guid: bac9ee15654904fc9ac88ee03756ee6a, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1225700200521285870, guid: bac9ee15654904fc9ac88ee03756ee6a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 1225700200521285870, guid: bac9ee15654904fc9ac88ee03756ee6a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1225700200521285870, guid: bac9ee15654904fc9ac88ee03756ee6a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 1225700200521285870, guid: bac9ee15654904fc9ac88ee03756ee6a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1225700200521285870, guid: bac9ee15654904fc9ac88ee03756ee6a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1225700200521285870, guid: bac9ee15654904fc9ac88ee03756ee6a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1225700200521285870, guid: bac9ee15654904fc9ac88ee03756ee6a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1225700200521285870, guid: bac9ee15654904fc9ac88ee03756ee6a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1225700200521285870, guid: bac9ee15654904fc9ac88ee03756ee6a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1225700200521285870, guid: bac9ee15654904fc9ac88ee03756ee6a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894150096002619988, guid: bac9ee15654904fc9ac88ee03756ee6a, type: 3}
+      propertyPath: m_Name
+      value: Ring (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bac9ee15654904fc9ac88ee03756ee6a, type: 3}
 --- !u!1001 &1582759733
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -517,14 +574,14 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 1000
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 1000
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
---- !u!64 &1952449746
-MeshCollider:
+--- !u!65 &1952449748
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -533,10 +590,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -2432090755550338912, guid: 911d127f61b794f48ac47556eded97f3, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.6132317, z: 5.28216}
+  m_Center: {x: 0, y: 0.30661583, z: 0.21035099}
 --- !u!1001 &3721247792581003522
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -7,8 +7,9 @@ public class PlaneCameraController : MonoBehaviour
     public GameObject plane;
     public float lastCameraToggle = 0f;
 
-    public Vector3 camOffset = new Vector3(0, 3, -8);
-    public Vector3 camOffsetFirstPerson = new Vector3(0,1,2);
+    // -1 offset for requirements centering not needed
+    public Vector3 camOffset = new Vector3(-1, 3, -8);
+    public Vector3 camOffsetFirstPerson = new Vector3(-1,1,2);
     public bool isFirstPerson = false;
 
     // Start is called before the first frame update

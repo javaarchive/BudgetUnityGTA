@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Unit1FinalPractice.unity
+    guid: 9a045e1afbd3043db9fdafee47097db0
   m_configObjects: {}

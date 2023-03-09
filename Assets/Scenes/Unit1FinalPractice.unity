@@ -634,8 +634,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   plane: {fileID: 1952449741}
   lastCameraToggle: 0
-  camOffset: {x: 0, y: 3, z: -8}
-  camOffsetFirstPerson: {x: 0, y: 1, z: 2}
+  camOffset: {x: -5, y: 3, z: -8}
+  camOffsetFirstPerson: {x: -5, y: 1, z: 2}
   isFirstPerson: 0
 --- !u!1001 &1184984033
 PrefabInstance:
